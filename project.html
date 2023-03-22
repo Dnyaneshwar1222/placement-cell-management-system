@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 70%;
+            height: 500px;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: 0px 0px 25px rgb(12, 12, 12);
+            /* position: relative; */
+            overflow: hidden;
+            background-color:transparent;
+            
+        }
+        .slide{
+            width: 70%;
+            height: 500px;
+            position: absolute;
+            /* transition: 1s; */
+        }
+        .nav{
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+        .nav button{
+            font-size: 20px;
+            padding: auto;
+            
+        }
+      
+
+    </style>
+</head>
+<body>
+    <button onclick="goPrev()">Pre</button>
+    <button onclick="goNext()">Next</button>
+ 
+        <img id="img_con" src="https://picsum.photos/1000/500" class="slide" alt="">
+       
+  
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
